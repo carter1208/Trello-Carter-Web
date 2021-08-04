@@ -1,0 +1,14 @@
+@import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:wght@400,600');
+
+$gap: 10px;
+
+$bgColor: #0f86aa;
+
+$bgCommonElement: rgba(255, 255, 255, .24);
+
+//Screen
+$screen-lg:1201px;
+$screen-md:992px;
+$screen-sm:768px;
+$screen-phone:480px;
+$screen-ip6-down:'(max-width:378px)';
