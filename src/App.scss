@@ -9,7 +9,7 @@ body{
 
 .trello-container{
   height: 100vh;
-  display: grid;
+  overflow:hidden;
   grid-template-rows: 40px 50px 1fr;
   background-color: $bgColor;
 }
