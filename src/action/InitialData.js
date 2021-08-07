@@ -1,7 +1,7 @@
 export const InitialData = {
     boards:[
-        {
-            id:'board-1',
+    {
+        id:'board-1',
             columnOrder:['column-1','column-2','column-3'],
             columns:[
                 {
@@ -16,7 +16,7 @@ export const InitialData = {
                         { id:'card-4',boardId:'board-1',columnId:'column-1',title:'title of card 4',cover:null },
                         { id:'card-5',boardId:'board-1',columnId:'column-1',title:'title of card 5',cover:null },
                         { id:'card-6',boardId:'board-1',columnId:'column-1',title:'title of card 6',cover:null },
-                        { id:'card-7',boardId:'board-1',columnId:'column-1',title:'title of card 7',cover:null },
+                        { id:'card-7',boardId:'board-1',columnId:'column-1',title:'title of card 7',cover:null }
                     ]
                 },
                 {

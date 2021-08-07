@@ -1,8 +1,9 @@
 @import 'setting.scss';
 
 .board-content{
-    display: flex;
-    margin: 0 $gap $gap;
+    // display: flex;
+    height: $board-content-height;
+    // margin: 0 $gap $gap;
     
     overflow-x: auto;
     overflow-y: hidden;

@@ -10,9 +10,8 @@ function App() {
       <AppBar/>
       <BoardBar/>
       <BoardContent/>
-      
     </div>
-  );
+  )
 }
 
 export default App
