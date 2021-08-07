@@ -8,9 +8,7 @@ $card-boarder-radius:4px;
     border-radius: $card-boarder-radius;
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
     cursor: pointer;
-    &:not(:last-child){
-      margin-bottom: $gap;
-    }
+    margin-bottom: $gap;
     
     img.card-cover{
       display: block;
