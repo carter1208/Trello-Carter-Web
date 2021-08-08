@@ -1,6 +1,5 @@
 @import 'setting.scss';
 
-$bgList: #ecebf0;
 
 $column-header-height:46px;
 $column-footer-height:46px;
@@ -54,8 +53,8 @@ $column-height:calc(#{$board-content-height} - $gap * 2);
         width: 11px;
       }
       &::-webkit-scrollbar-thumb{
-        background-color: darken($color: $bgList, $amount: 15);
-        border-right: 5px solid $bgList;
+        background-color: darken($color: $bgColumn, $amount: 15);
+        border-right: 5px solid $bgColumn;
       }
       .card-ghost {
         transition: transform 0.18s ease;
